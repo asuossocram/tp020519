@@ -1,0 +1,21 @@
+package view;
+
+import model.pessoaFisica;
+
+public class execucao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		pessoaFisica pf = new PessoaFisica();
+		
+		pf.setCpf(012345678901);
+		pf.setEndereco("Rua Sonho Gaúcho");
+		pf.setBairro("Cidade AE Carvalho");
+		pf.setCidade("São Paulo");
+		pf.setEstado("SP");
+		pf.setCep(012345678);
+		pf.setTelefone(11987654321);
+
+	}
+
+}
